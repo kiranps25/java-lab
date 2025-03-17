@@ -1,0 +1,49 @@
+CYCLE 1: CO1
+1 Write a program to display the message “WELCOME JAVA”.
+2 Write a program to read integer from the keyboard and check whether the number is
+even or odd.
+3 Write a program to print the leap years within the given range.
+4 Define a class 'product' with data members pcode,pname and price. Create three
+objects of the class and find the product having the lowest price.
+5 Write a program to perform complex number addition.
+6 Create a class CPU with attribute price. Create an inner class processor (no of
+cores,manufacturer)and static nested class RAM(memory,manufacturer).Create
+an object of CPU and print information of processor and RAM.
+CYCLE 2: CO2
+7 Write a Program which accepts the marks of a student into a 1D array from the
+keyboard. Calculate and display total marks & percentage obtained by the
+student.
+8 Read two matrices from the console and perform matrix addition.
+9 Read a matrix from the console and check whether it is symmetric/not
+10 Program to sort strings.
+11 Program to sort characters from a string.
+12 Search an element in an array.
+13 Program to create a class for Employee having attributes eNo, eName,Salary.
+Read n employ information and search for an employee given eNo using the
+concept of array of objects.
+CYCLE 3: C03
+14 Using the concept of method overloading find the area of different shapes
+rectangle, circle and square.
+15 Create a class ‘Employee’ with data members Empid, Name, Salary, Address and
+constructors to initialize the data members. Create another class ‘Teacher’ that
+inherit the properties of class employee and contain its own data members
+department, Subjects taught and constructors to initialize these data members
+and also include a display function to display all the data members. Use array of
+objects to display details of N teachers.
+
+16 Create a class ‘Person’ with data members Name, Gender, Address, Age and a
+constructor to initialize the data members and another class ‘Employee’ that
+inherits the properties of class Person and also contains its own data members
+like Empid, Company name, Qualification, Salary and its own constructor.
+Create another class ‘Teacher’ that inherits the properties of class Employee and
+contains its own data members like Subject, Department, Teacher id and also
+contain constructors and methods to display the data members. Use array of
+objects to display details of N teachers.
+17 Using the concept of method overriding, find the area of shapes Rectangle, Circle and
+Square.
+18 Create an Abstract Class ‘Shape’ with an abstract method find Area to find the
+area of different shapes. Create subclasses Rectangle, Circle and Square from
+Shape. Calculate and display area of Rectangle, Circle and Square
+19 Create an interface having prototypes of functions area() and perimeter(). Create
+two classes Circle and Rectangle which implements the above interface. Create a
+menu driven program to find area and perimeter of objects.

@@ -47,3 +47,29 @@ Shape. Calculate and display area of Rectangle, Circle and Square
 19 Create an interface having prototypes of functions area() and perimeter(). Create
 two classes Circle and Rectangle which implements the above interface. Create a
 menu driven program to find area and perimeter of objects.
+
+CYCLE 4: C04 BATCH1 BATCH2
+20 Write a program that demonstrates exception handling
+mechanisms.
+(a) ArithmeticException
+(b) ArrayIndexOutOfBoundsException
+24/3/25
+7/4/25
+27/3/25
+10/4/25
+21 Find the average of N positive integers, raising a user defined
+exception for each negative input.
+22 Define 2 classes; one for generating a multiplication table of 5
+and other for displaying first N prime numbers. Implement using
+threads. (Thread class)
+23 Define 2 classes; one for generating Fibonacci numbers and other
+for displaying even numbers in a given range. Implement using
+threads. (Runnable Interface)
+CYCLE 5: C05 BATCH1 BATCH2
+24 Program to find a maximum of three numbers using AWT.
+21/4/25 24/4/25
+25 Implement a simple calculator using AWT components.
+CYCLE 6: C06 BATCH1 BATCH2
+26 Write a program to write to a file, then read from the file and
+display the contents on the console. 28/4/25 15/5/25
+27 Write a program to copy one file to another.

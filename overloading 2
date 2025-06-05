@@ -1,0 +1,53 @@
+import java.util.*;
+class area
+{
+	int l,b,s;
+	float r;
+public area(int l,int b,int s,float r)
+{
+	this.l=l;
+	this.b=b;
+	this.s=s;
+	this.r=r;
+}
+
+	
+	void read(int l,int b)
+	{
+		
+		int a=l*b;
+		System.out.println("Area of rectangle: "+a);
+	}
+	void read(int s)
+	{
+		
+		int a=s*s;
+		System.out.println("area of square: "+a);
+	}
+	void read(float r)
+	{
+		
+		float a=3.14f*r*r;
+		System.out.println("area of circle: "+a);
+	}
+	
+}
+class Main{
+    public static void main(String args[])
+	{
+		Scanner n=new Scanner(System.in);
+		System.out.println("enter the length of rectangle: ");	
+		int l=n.nextInt();
+		System.out.println("enter the breath of rectangle: ");	
+		int b=n.nextInt();
+		System.out.println("enter the side of square: ");	
+		int s=n.nextInt();
+		
+		System.out.println("enter the radius of circle: ");	
+		float r=n.nextFloat();
+		area ob=new area(l,b,s,r);
+		ob.read(l,b);
+        ob.read(s);
+		ob.read(r);
+	}
+}

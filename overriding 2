@@ -1,0 +1,82 @@
+import java.util.*;
+ class Shape {
+
+     double area(){
+    return 0.0;
+    }
+}
+
+
+class Rectangle extends Shape {
+     double length;
+     double width;
+
+    
+     Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+
+    
+     double area() {
+        return length * width;
+    }
+}
+
+
+class Circle extends Shape {
+     double radius;
+
+    
+     Circle(double radius) {
+        this.radius = radius;
+    }
+
+    
+     double area() {
+        return Math.PI * radius * radius;
+    }
+}
+
+
+class Square extends Shape {
+     double side;
+
+    
+     Square(double side) {
+        this.side = side;
+    }
+
+
+
+    double area() {
+        return side * side;
+    }
+
+
+
+
+    
+}
+class Main{
+    public static void main(String[] args) {
+        Scanner n=new Scanner(System.in);
+        System.out.println("lenth: ");
+        double length=n.nextDouble();
+        System.out.print("breadth:");
+        double width=n.nextDouble();
+        System.out.println("radius: ");
+        double radius=n.nextDouble();
+        System.out.print("side:");
+        double side=n.nextDouble();
+        Shape r = new Rectangle(length,width);
+        Shape c = new Circle(radius);
+        Shape s = new Square(side);
+
+
+        System.out.println("Area of Rectangle: " + r.area());
+        System.out.println("Area of Circle: " + c.area());
+        System.out.println("Area of Square: " + s.area());
+    }
+}
